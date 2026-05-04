@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div>
+        <h2>Student Registration Form</h2>
+    </div>
+
+    <form action="#" method="" autocomplete="on">
+        <div>
+            <label for="">FirstName*:</label>
+            <input type="text" value="Abdul Rehman" required>
+            <label for="">LastName*:</label>
+            <input type="text" minlength="3" maxlength="10" required>
+        </div>
+        <div>
+            <label for="">Password</label>
+            <input type="password">
+        </div>
+        <div>
+            <label for="">Email</label>
+            <input type="email" placeholder="enter your email" value="hafiz.rehman@umt.edu.pk" readonly>
+        </div>
+        <div>
+            <label for="">D.O.B</label>
+            <input type="date">
+        </div>
+        <div>
+            <label for="">Upload Resume:</label>
+            <input type="file">
+        </div>
+
+        <div>
+            <label for="">Marks</label>
+            <input type="number" min="10" max="100">
+        </div>
+
+        <div>
+            <label for="">Gender</label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Other
+        </div>
+
+        <div>
+            <label for="Country"></label>
+            <select>
+                <option value="" selected disabled>Select your Conutry</option>
+                <option value="PAK">Pakistan</option>
+                <option value="">Japan</option>
+                <option value="">Iran</option>
+                <option value="">China</option>
+                <option value="KSA">Saudi Arabia</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="">Skills:</label>
+            <input type="checkbox">C++
+            <input type="checkbox">OOP
+            <input type="checkbox">DSA
+            <input type="checkbox">DB
+            <input type="checkbox">Python
+        </div>
+
+        <div>
+            <textarea name="" id="" cols="20" rows="5"></textarea>
+        </div>
+
+        <input type="text" value="bhsdu762bub6868bu286" >
+
+        <input type="reset" value="Reset Form">
+
+        <input type="submit" value="Submit Form">
+
+    </form>
+
+    
+</body>
+</html>
