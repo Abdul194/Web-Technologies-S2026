@@ -1,0 +1,86 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    background-color: black;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* position: fixed;
+    width: 100%; */
+
+    /* that will be remove */
+    border: 1px solid black;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    float: right;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+ul li a:hover{
+    color: #0AED
+}
+
+
+.container1{
+    border: 1px solid black;
+    height: 500px;
+    background-image: url(../images/BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item{
+    text-align: center;
+}
+
+.flex-item h2{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.flex-item p{
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+
+.hero-btn{
+    border-radius: 15px;
+    border: 2px solid #0fbab2;
+    background-color: #0fbab2;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: White;
+}
+
+
+.hero-btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.col{
+    border: 1px solid black;
+}

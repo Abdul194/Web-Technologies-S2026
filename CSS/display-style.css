@@ -1,0 +1,35 @@
+.navbar{
+    position: fixed;
+    display: block;
+    width: 100%;
+    top:0;
+    background-color: black;
+    color: white;
+}
+
+.f-div span{
+    width: 50%;
+    /* float: left; */
+}
+
+
+.f-div img{
+    width: 350px;
+}
+
+div{
+    border: 1px solid black;
+}
+
+/* .pos-a{
+    position: relative;
+}
+
+
+.pos{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
